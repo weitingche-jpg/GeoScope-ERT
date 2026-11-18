@@ -1,0 +1,31 @@
+{
+  "kind": "合成观测 + 实际正反演计算；非本地区实测结果",
+  "engine": "pyGIMLi",
+  "engine_version": "1.6.0",
+  "dimension": "二维电阻率反演（2.5D 正演），三维场景中显示剖面",
+  "crs": "EPSG:26710",
+  "terrain_source": "data/terrain.tif",
+  "line_vertices": [
+    [
+      562275.0,
+      5114985.0
+    ],
+    [
+      563115.0,
+      5114985.0
+    ]
+  ],
+  "chi2": 0.9717990689978896,
+  "rrms_percent": 2.097522273262432,
+  "cells": 533,
+  "observations": 231,
+  "noise_percent": 2,
+  "seed": 42,
+  "station_span": [
+    0.0,
+    840.0
+  ],
+  "terrain_aware": true,
+  "vertical_reference": "沿测线实际高程；整体平移参考值",
+  "geometry_note": "保留求解器节点高程，不对反演结果作贴地变形"
+}

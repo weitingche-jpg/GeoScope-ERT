@@ -1,0 +1,14 @@
+{
+  "terrain": "Real Mount St. Helens elevation DEM, cropped without elevation modification",
+  "download_api": "pyvista.examples.download_st_helens(load=False)",
+  "documentation": "https://docs.pyvista.org/api/examples/_autosummary/pyvista.examples.download_st_helens.html",
+  "upstream_file": "SainteHelens.dem (VTK example data via pyvista/data)",
+  "sha256_original": "4b516d82778e6d8d10ffada64d2da41b3b3aad7e427af56de5a2a1666d3c746f",
+  "sha256_crop": "f12736c87319d76a22e1af9032fdcde98bd2438d1c67a4b73db3c94aae76a6ca",
+  "crs": "EPSG:26710",
+  "processing": "48 x 48 pixel crop; original elevation and horizontal CRS preserved",
+  "vertical_datum": "Not verified; file elevation values retained",
+  "survey": "Synthetic station layout for integration test; not a field survey at this location",
+  "underground": "Synthetic resistivity truth, 2% noisy forward data, actual pyGIMLi inversion",
+  "limitation": "Demonstrates data/geometry/engine/renderer integration, not site interpretation"
+}
